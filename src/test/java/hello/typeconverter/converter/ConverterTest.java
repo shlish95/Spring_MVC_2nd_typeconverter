@@ -18,8 +18,8 @@ public class ConverterTest {
     @Test
     void integerToString() {
         IntegerToStringConverter converter = new IntegerToStringConverter();
-        String result = converter.convert(10);
-        assertThat(result).isEqualTo("10");
+        String result = converter.convert(20);
+        assertThat(result).isEqualTo("20");
     }
 
     @Test
